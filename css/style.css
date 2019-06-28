@@ -222,7 +222,6 @@ footer, footer a {color: white !important;}
 .logo img {
     max-height: 34px;
 }
-.uk-list .uk-offcanvas.uk-active>div {width: calc(100% / 2);}
 }
 
 @media (min-width:768px) {
@@ -260,7 +259,6 @@ footer, footer a {color: white !important;}
 }
 
 @media (min-width:1220px) {
-.uk-list .uk-offcanvas.uk-active>div {width: calc(100% / 3);}
 .logo img {
     width: auto;
     max-height: 50px;

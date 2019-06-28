@@ -686,6 +686,25 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
     border-bottom: 0;
 }
 .banner.uk-position-z-index, .uk-offcanvas, .uk-dropdown.uk-position-z-index {z-index: 1035;}
+
+/*uk-small*/
+@media (min-width:480px) {
+.uk-list .uk-offcanvas.uk-active>div {width: calc(100% / 2);}
+}
+
+/*uk-medium*/
+@media (min-width:768px) {
+}
+
+/*uk-large*/
+@media (min-width:960px) {
+}
+
+/*uk-xlarge*/
+@media (min-width:1220px) {
+.uk-list .uk-offcanvas.uk-active>div {width: calc(100%*5 / 12);}
+}
+
 /* End Uikit Style
 ---------------------------------------------------- */
 .container_responsive {padding: 0;}
