@@ -206,9 +206,9 @@ $(document).ready(function() {
   });
 });
 
-UIkit.on('beforeready.uk.dom', function() {
-  var hash = document.location.hash;
-  if (hash) {
-    UIkit.$(hash).addClass('uk-active').siblings().removeClass('uk-active');
-  }
-});
+// UIkit.on('beforeready.uk.dom', function() {
+//   var hash = document.location.hash;
+//   if (hash) {
+//     UIkit.$(hash).addClass('uk-active').siblings().removeClass('uk-active');
+//   }
+// });
