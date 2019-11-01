@@ -192,6 +192,24 @@ ol.listDecimalRow.badge>li:before {background: #63B3ED;}
 .logo {display: flex;}
 .logo img {max-height: 30px;}
 
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar .uk-overlay-panel {
+    background: #ccdff3 !important;
+    border-left: 1px rgba(108, 117, 125, 0.5) solid;
+    opacity: 1;
+}
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar {
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+}
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar *, .uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar a {
+    color: #212529 !important;
+}
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar .border {
+    border-color: #6c757d !important;
+}
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar:after {
+  display: none;
+}
+
 footer, footer a {color: white !important;}
 
 /* Uikit Style
