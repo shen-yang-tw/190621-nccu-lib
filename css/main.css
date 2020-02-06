@@ -703,7 +703,7 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
 }
 
 .uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar *,
-.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar a, .offcanvas>div *, .offcanvas>div a {
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar a, .offcanvas>div *:not([color]):not([style]):not(a), .offcanvas>div a {
   color: #212529 !important;
 }
 

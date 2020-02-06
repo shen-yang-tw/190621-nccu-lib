@@ -229,9 +229,9 @@ $(document).ready(function() {
     }
   });
   // $(".offcanvas [style^='color:']").attr('style', 'color:' + $(".offcanvas [style^='color:']").inlineStyle('color') + ' !important;');
-  $(".editor [style^='color:']").each(function() {
-    $(this).attr('style', 'color:' + $(this).inlineStyle('color') + ' !important;');
-  })
+  // $(".editor [style^='color:']").each(function() {
+  //   $(this).attr('style', 'color:' + $(this).inlineStyle('color') + ' !important;');
+  // })
 
 });
 
