@@ -129,7 +129,7 @@ input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:b
 .child_margin>:not(:last-child) {margin-right: 5px; margin-bottom: 5px;}
 .child_margin10>:not(:last-child) {margin-right: 10px; margin-bottom: 10px;}
 .child_margin15>:not(:last-child) {margin-right: 15px; margin-bottom: 15px;}
-.child_margin>:not(:last-child) {margin-bottom: 10px;}
+.child_marginB10>:not(:last-child) {margin-bottom: 10px;}
 .child_marginB15>:not(:last-child) {margin-bottom: 15px;}
 .margin_small {margin: 5px;}
 .margin_medium {margin: 10px;}
