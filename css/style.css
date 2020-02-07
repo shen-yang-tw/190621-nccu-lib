@@ -343,7 +343,13 @@ ol.listDecimalRow.badge>li:before {
   max-height: 30px;
 }
 
-
+#accordion1 .uk-button {
+  background: transparent;
+  border: none;
+  color: #63b3ed;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
 
 footer,
 footer a {
