@@ -346,9 +346,12 @@ ol.listDecimalRow.badge>li:before {
 #accordion1 .uk-button {
   background: transparent;
   border: none;
-  color: #63b3ed;
+  color: #7f9cf5;
   font-size: 1.1rem;
   font-weight: 600;
+}
+#accordion1 .uk-button:hover {
+  color: black;
 }
 
 footer,
