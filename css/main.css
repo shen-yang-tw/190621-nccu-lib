@@ -1516,9 +1516,9 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 .offcanvas>div {width: calc(100%*5 / 12);}
 
 #logoMenuBar>div:last-child {
-    width: 100%;
+    width: 30%;
     position: absolute;
-    left: 0;
+    right: 0;
 }
 #logoMenuBar>div:last-child h4 {
     margin-top: -5px !important;
